@@ -14,7 +14,7 @@ var assert = require('assert'),
     OutputType        = require('../lib/protocol/OutputType'),
     TransactionOutput = require('../lib/protocol/TransactionOutput'),
     bitcore = require('bitcore'),
-    RpcClient = require('bitcore/lib/RpcClient'),
+    RpcClient = require('bitcoind-rpc'),
     EncodedData = require('bitcore/util/EncodedData');
 
 

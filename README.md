@@ -38,7 +38,7 @@ The following is a heavily documented example that provides a high-level idea of
 // Required modules
 var openassets = require('openassets'),
     // Bitcore provides an excellent JSON-RPC client implementation. Substitute your favorite.
-    RpcClient  = require('bitcore/lib/RpcClient');
+    RpcClient  = require('bitcoind-rpc')
 
 // JSON-RPC connection information (read from environment variables)
 config = {
