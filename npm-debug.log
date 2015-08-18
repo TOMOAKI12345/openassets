@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'bitcore/util' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/TomoakiSato/Documents/workspace_js/openassets/package.json
+6 warn package.json openassets@0.1.1 license should be a valid SPDX license expression
+7 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/assert/package.json
+8 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/async/package.json
+9 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/bitcore/package.json
+10 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/bufferput/package.json
+11 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/buffertools/package.json
+12 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/chai/package.json
+13 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/leb/package.json
+14 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/mocha/package.json
+15 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/should/package.json
+16 verbose installManyTop reading scoped package data from /Users/TomoakiSato/Documents/workspace_js/openassets/node_modules/sinon/package.json
+17 info package.json assert@1.3.0 assert is also the name of a node core module.
+18 info package.json bufferput@0.1.2 license should be a valid SPDX license expression
+19 info package.json leb@0.3.0 No license field.
+20 verbose readDependencies loading dependencies from /Users/TomoakiSato/Documents/workspace_js/openassets/package.json
+21 silly cache add args [ 'bitcore/util', null ]
+22 verbose cache add spec bitcore/util
+23 silly cache add parsed spec { raw: 'bitcore/util',
+23 silly cache add   scope: null,
+23 silly cache add   name: null,
+23 silly cache add   rawSpec: 'bitcore/util',
+23 silly cache add   spec: 'github:bitcore/util',
+23 silly cache add   type: 'hosted',
+23 silly cache add   hosted:
+23 silly cache add    { type: 'github',
+23 silly cache add      ssh: 'git@github.com:bitcore/util.git',
+23 silly cache add      sshUrl: 'git+ssh://git@github.com/bitcore/util.git',
+23 silly cache add      httpsUrl: 'git+https://github.com/bitcore/util.git',
+23 silly cache add      gitUrl: 'git://github.com/bitcore/util.git',
+23 silly cache add      shortcut: 'github:bitcore/util',
+23 silly cache add      directUrl: 'https://raw.githubusercontent.com/bitcore/util/master/package.json' } }
+24 verbose addRemoteGit caching bitcore/util
+25 verbose addRemoteGit bitcore/util is a repository hosted by github
+26 silly tryGitProto attempting to clone git://github.com/bitcore/util.git
+27 silly tryClone cloning bitcore/util via git://github.com/bitcore/util.git
+28 verbose tryClone git-github-com-bitcore-util-git-d9f3c3f2 not in flight; caching
+29 info git [ 'clone',
+29 info git   '--template=/Users/TomoakiSato/.npm/_git-remotes/_templates',
+29 info git   '--mirror',
+29 info git   'git://github.com/bitcore/util.git',
+29 info git   '/Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-d9f3c3f2' ]
+30 verbose git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git://github.com/bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-d9f3c3f2: Cloning into bare repository '/Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-d9f3c3f2'...
+30 verbose git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git://github.com/bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-d9f3c3f2: fatal: remote error:
+30 verbose git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git://github.com/bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-d9f3c3f2:   Repository not found.
+31 silly tryHTTPS attempting to clone git+https://github.com/bitcore/util.git
+32 silly tryClone cloning bitcore/util via git+https://github.com/bitcore/util.git
+33 verbose tryClone https-github-com-bitcore-util-git-fe90e0fb not in flight; caching
+34 info git [ 'clone',
+34 info git   '--template=/Users/TomoakiSato/.npm/_git-remotes/_templates',
+34 info git   '--mirror',
+34 info git   'https://github.com/bitcore/util.git',
+34 info git   '/Users/TomoakiSato/.npm/_git-remotes/https-github-com-bitcore-util-git-fe90e0fb' ]
+35 verbose git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror https://github.com/bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/https-github-com-bitcore-util-git-fe90e0fb: Cloning into bare repository '/Users/TomoakiSato/.npm/_git-remotes/https-github-com-bitcore-util-git-fe90e0fb'...
+35 verbose git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror https://github.com/bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/https-github-com-bitcore-util-git-fe90e0fb: remote: Invalid username or password.
+35 verbose git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror https://github.com/bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/https-github-com-bitcore-util-git-fe90e0fb: fatal: Authentication failed for 'https://github.com/bitcore/util.git/'
+36 silly trySSH attempting to clone git@github.com:bitcore/util.git
+37 silly tryClone cloning bitcore/util via git@github.com:bitcore/util.git
+38 verbose tryClone git-github-com-bitcore-util-git-c1d46a9c not in flight; caching
+39 info git [ 'clone',
+39 info git   '--template=/Users/TomoakiSato/.npm/_git-remotes/_templates',
+39 info git   '--mirror',
+39 info git   'git@github.com:bitcore/util.git',
+39 info git   '/Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c' ]
+40 error git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c: Cloning into bare repository '/Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c'...
+40 error git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c: ERROR: Repository not found.
+40 error git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c: fatal: Could not read from remote repository.
+40 error git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c:
+40 error git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c: Please make sure you have the correct access rights
+40 error git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c: and the repository exists.
+41 verbose stack Error: Command failed: git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c
+41 verbose stack Cloning into bare repository '/Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c'...
+41 verbose stack ERROR: Repository not found.
+41 verbose stack fatal: Could not read from remote repository.
+41 verbose stack
+41 verbose stack Please make sure you have the correct access rights
+41 verbose stack and the repository exists.
+41 verbose stack
+41 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+41 verbose stack     at ChildProcess.emit (events.js:110:17)
+41 verbose stack     at maybeClose (child_process.js:1015:16)
+41 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+41 verbose stack     at Socket.emit (events.js:107:17)
+41 verbose stack     at Pipe.close (net.js:485:12)
+42 verbose cwd /Users/TomoakiSato/Documents/workspace_js/openassets
+43 error Darwin 14.3.0
+44 error argv "node" "/usr/local/bin/npm" "install" "bitcore/util"
+45 error node v0.12.7
+46 error npm  v2.12.1
+47 error code 128
+48 error Command failed: git clone --template=/Users/TomoakiSato/.npm/_git-remotes/_templates --mirror git@github.com:bitcore/util.git /Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c
+48 error Cloning into bare repository '/Users/TomoakiSato/.npm/_git-remotes/git-github-com-bitcore-util-git-c1d46a9c'...
+48 error ERROR: Repository not found.
+48 error fatal: Could not read from remote repository.
+48 error
+48 error Please make sure you have the correct access rights
+48 error and the repository exists.
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
